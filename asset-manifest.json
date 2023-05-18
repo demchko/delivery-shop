@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.js": "/delivery-shop/static/js/main.930369c2.js",
+    "static/media/sushi.jpg": "/delivery-shop/static/media/sushi.788870d19e564f9fdca9.jpg",
+    "static/media/salad.jpg": "/delivery-shop/static/media/salad.c2586bd649ec0f024ef2.jpg",
+    "static/media/pizza.jpg": "/delivery-shop/static/media/pizza.c424983ea6d69223b86d.jpg",
+    "static/media/burger.jpg": "/delivery-shop/static/media/burger.9dde79c6817293b91628.jpg",
+    "static/media/kebab.jpg": "/delivery-shop/static/media/kebab.a7e7c8773f94763d8176.jpg",
+    "static/media/drinks.jpg": "/delivery-shop/static/media/drinks.bff9f866ce73f60b9f0f.jpg",
+    "static/media/pizza1.jpg": "/delivery-shop/static/media/pizza1.16d4ddc66c978607c621.jpg",
+    "static/media/salad1.jpg": "/delivery-shop/static/media/salad1.7127b6cbcfe38da950a2.jpg",
+    "static/media/salad2.jpg": "/delivery-shop/static/media/salad2.8bb1aac5424dc6cb2705.jpg",
+    "static/media/burger2.jpg": "/delivery-shop/static/media/burger2.c55d918e51a92039f1ec.jpg",
+    "static/media/burger3.jpg": "/delivery-shop/static/media/burger3.603e84b245d99d0e0268.jpg",
+    "static/media/burger1.jpg": "/delivery-shop/static/media/burger1.e22779ae87c159f6d3df.jpg",
+    "static/media/burger4.jpg": "/delivery-shop/static/media/burger4.4495560dbb638bde7526.jpg",
+    "static/media/pizza2.jpg": "/delivery-shop/static/media/pizza2.a8ca18ab28ccbd6c5e65.jpg",
+    "static/media/sushi1.jpg": "/delivery-shop/static/media/sushi1.79a55cc9e3e8bc7182aa.jpg",
+    "static/media/desert1.jpg": "/delivery-shop/static/media/desert1.16496c06abeacdc9f87d.jpg",
+    "static/media/pizza4.jpg": "/delivery-shop/static/media/pizza4.1dfb3b3cdf50f49398d5.jpg",
+    "static/media/pizza3.jpg": "/delivery-shop/static/media/pizza3.eeb3e50f4870a55de51f.jpg",
+    "static/media/drink3.png": "/delivery-shop/static/media/drink3.5fea0e2b210a1e344749.png",
+    "static/media/drink2.png": "/delivery-shop/static/media/drink2.0e4f8687f9d6c72f837b.png",
+    "static/media/avatar.png": "/delivery-shop/static/media/avatar.6acf9f91942e295ee2bc.png",
+    "static/media/sushi3.jpg": "/delivery-shop/static/media/sushi3.d6559d7e4ff60ed28bcf.jpg",
+    "static/media/sushi2.jpg": "/delivery-shop/static/media/sushi2.cd3fc364c9635ebe2e92.jpg",
+    "static/media/drink4.jpg": "/delivery-shop/static/media/drink4.98a82a6b7c25f7f83688.jpg",
+    "index.html": "/delivery-shop/index.html",
+    "main.930369c2.js.map": "/delivery-shop/static/js/main.930369c2.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.930369c2.js"
+  ]
+}
