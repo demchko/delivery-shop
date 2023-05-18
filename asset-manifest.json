@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/delivery-shop/static/js/main.930369c2.js",
+    "main.js": "/delivery-shop/static/js/main.759744c4.js",
     "static/media/sushi.jpg": "/delivery-shop/static/media/sushi.788870d19e564f9fdca9.jpg",
     "static/media/salad.jpg": "/delivery-shop/static/media/salad.c2586bd649ec0f024ef2.jpg",
     "static/media/pizza.jpg": "/delivery-shop/static/media/pizza.c424983ea6d69223b86d.jpg",
@@ -26,9 +26,9 @@
     "static/media/sushi2.jpg": "/delivery-shop/static/media/sushi2.cd3fc364c9635ebe2e92.jpg",
     "static/media/drink4.jpg": "/delivery-shop/static/media/drink4.98a82a6b7c25f7f83688.jpg",
     "index.html": "/delivery-shop/index.html",
-    "main.930369c2.js.map": "/delivery-shop/static/js/main.930369c2.js.map"
+    "main.759744c4.js.map": "/delivery-shop/static/js/main.759744c4.js.map"
   },
   "entrypoints": [
-    "static/js/main.930369c2.js"
+    "static/js/main.759744c4.js"
   ]
 }
