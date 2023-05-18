@@ -32,7 +32,7 @@ const CardComponent = ({data}) => {
            <Grid templateColumns={{ sm: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)', lg: 'repeat(3, 1fr)' }} gap={6} >
                 {
                     filteredData.map(item => (
-                        item.desc
+                        item.descr
                         ? <Link to={`/product/${item.id}`} >
                         <Card mt='7' >
                             <CardBody textAlign='center' >
