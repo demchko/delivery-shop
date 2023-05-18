@@ -67,20 +67,20 @@ const Main = () => {
 
 
     return (
-        <Box bg='#edf2f2' w='83%' p='10px' >
-          <Routes>
-            <Route path='' element={<Menu />} />
-            <Route path='/sushi' element={<CardComponent data={data[0]} />} />
-            <Route path='/burger' element={<CardComponent data={data[1]} />} />
-            <Route path='/pizza' element={<CardComponent data={data[2]} />} />
-            <Route path='/salad' element={<CardComponent data={data[3]} />} />
-            <Route path='/drinks' element={<CardComponent data={data[4]} />} />
-            <Route path='/deserts' element={<CardComponent data={data[5]} />} />
-            <Route path='/product/:id' element={<ItemPage data={data} />} />
-            <Route path='/basket' element={<BasketPage />} />
-          </Routes>
-        </Box>
-    );
+      <Box bg='#edf2f2' w='100%' maxW={{ base: '100%', md: '83%' }} p='10px'>
+  <Routes>
+    <Route path='' element={<Menu />} />
+    <Route path='/sushi' element={<CardComponent data={data[0]} />} />
+    <Route path='/burger' element={<CardComponent data={data[1]} />} />
+    <Route path='/pizza' element={<CardComponent data={data[2]} />} />
+    <Route path='/salad' element={<CardComponent data={data[3]} />} />
+    <Route path='/drinks' element={<CardComponent data={data[4]} />} />
+    <Route path='/deserts' element={<CardComponent data={data[5]} />} />
+    <Route path='/product/:id' element={<ItemPage data={data} />} />
+    <Route path='/basket' element={<BasketPage />} />
+  </Routes>
+</Box>
+    )
 };
 
 export default Main;
