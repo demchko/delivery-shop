@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 const Header = () => {
     const [menu] = useState([
         {id: 1, title: 'Суші', link: '/sushi'},
-        {id: 2, title: 'Кебаб', link: '/kebab'},
+        {id: 2, title: 'Десерти', link: '/deserts'},
         {id: 3, title: 'Бургери', link: '/burger'},
         {id: 4, title: 'Піца',  link: '/pizza'},
         {id: 5, title: 'Салати',  link: '/salad'},

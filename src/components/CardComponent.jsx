@@ -32,20 +32,33 @@ const CardComponent = ({data}) => {
            <Grid templateColumns={{ sm: 'repeat(1, 1fr)', md: 'repeat(2, 1fr)', lg: 'repeat(3, 1fr)' }} gap={6} >
                 {
                     filteredData.map(item => (
-                        <Link to={`/product/${item.id}`} >
-                            <Card mt='7' >
-                                <CardBody textAlign='center' >
-                                    <Image src={item.img} objectFit='contain' />
-                                    <Stack>
-                                        <Heading fontWeight='200' >{item.title}</Heading>
-                                        <Flex justifyContent='space-between' alignItems='center' >
-                                            <Text fontWeight='500' >{item.price}грн</Text>
-                                            <Button bg='#439A97' color='white' borderRadius='50%' onClick={e => addToBasket(e, item)} >+</Button>
-                                        </Flex>
-                                    </Stack>
-                                </CardBody>
-                            </Card>
-                        </Link>
+                        item.desc
+                        ? <Link to={`/product/${item.id}`} >
+                        <Card mt='7' >
+                            <CardBody textAlign='center' >
+                                <Image src={item.img} objectFit='contain' />
+                                <Stack>
+                                    <Heading fontWeight='200' >{item.title}</Heading>
+                                    <Flex justifyContent='space-between' alignItems='center' >
+                                        <Text fontWeight='500' >{item.price}грн</Text>
+                                        <Button bg='#439A97' color='white' borderRadius='50%' onClick={e => addToBasket(e, item)} >+</Button>
+                                    </Flex>
+                                </Stack>
+                            </CardBody>
+                        </Card>
+                    </Link>
+                    : <Card mt='7' >
+                    <CardBody textAlign='center' >
+                        <Image src={item.img} objectFit='contain' />
+                        <Stack>
+                            <Heading fontWeight='200' >{item.title}</Heading>
+                            <Flex justifyContent='space-between' alignItems='center' >
+                                <Text fontWeight='500' >{item.price}грн</Text>
+                                <Button bg='#439A97' color='white' borderRadius='50%' onClick={e => addToBasket(e, item)} >+</Button>
+                            </Flex>
+                        </Stack>
+                    </CardBody>
+                </Card>
                     ))
                 }
             </Grid>
